@@ -1,24 +1,26 @@
-# notice-bar
+# 纵向滚动组件
 
-## Project setup
-```
-npm install
-```
+## 使用说明
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+```js
+import noticeBar from 'notice-bar'
+export default {
+  components: {
+    noticeBar,
+  },
+}
 ```
 
-### Lints and fixes files
-```
-npm run lint
+```html
+<notice-bar />
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 属性说明
+
+|     参数      |     说明     |  类型  | 默认值 |
+| :-----------: | :----------: | :----: | :----: |
+| noticeBarList |   消息数组   | Array  |   []   |
+|     speed     | 速度（毫秒） | Number |  2000  |
+|    height     |  高度（px）  | Number |   40   |
+|  background   |    背景色    | String |  #fff  |
+|     color     |   字体颜色   | String |  #000  |

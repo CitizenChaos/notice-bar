@@ -1,11 +1,13 @@
 {
   "name": "notice-bar",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "private": false,
+  "main": "./dist/NoticeBar.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build-notice-bar": "vue-cli-service build --target lib --name NoticeBar ./src/components/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.4",
