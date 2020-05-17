@@ -4,6 +4,10 @@
 
 ## 使用说明
 
+```shell
+npm i notice-bar -S
+```
+
 ```js
 import noticeBar from 'notice-bar'
 export default {
