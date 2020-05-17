@@ -1,5 +1,7 @@
 # 纵向滚动组件
 
+![example](https://github.com/CitizenChaos/notice-bar/blob/master/src/assets/example.gif)
+
 ## 使用说明
 
 ```js
